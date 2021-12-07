@@ -24,6 +24,8 @@ jobs:
       - name: Checkout The Code
       - uses: actions/checkout@v2
 
+      # Checking Updated Commit Data
+
       - name: Run Lint
       - uses: ./gradlew lintDebug
 
